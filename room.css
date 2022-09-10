@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.back_image{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(209, 241, 234),rgba(207, 88, 52, 0.4)),url(images/background_room.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.back_image1{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(207, 230, 107),rgba(207, 88, 52, 0.4)),url(images/front_image.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.room {
+    object-fit: cover;
+    position:absolute;
+    margin-left: 30px;
+    /*margin-right: 100px;*/
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 400px;
+    height: 450px;
+    width: 600px;
+  }
+  
+  .room1 {
+    object-fit: cover;
+    position:absolute;
+    margin-left: 660px;
+    /*margin-right: 20px;*/
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 400px;
+    height: 450px;
+    width: 600px;
+  }
+  .heading2 {
+    width: 20%;
+    color: chocolate;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .heading1 {
+    width: 20%;
+    color: chocolate;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+  }

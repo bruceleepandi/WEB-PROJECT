@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  :root{
+    --color-primary:#624cab;
+    --color-secondary:#00d9ff;
+    --color-accent:#ff3400;
+    --color-headings:#1b0760;
+    --color-body:#918ca4;
+  }
+  body{
+    display: flex;
+    height: 100vh;
+    margin-left: 90px;
+    padding: 50px; 
+    align-items:top;
+  /*background: linear-gradient(720deg,#71b7e6,#9b59b6); */
+  background-image: url(images/shared_back.jpg);
+  
+}
+  
+  #header {
+    background: linear-gradient(rgba(161, 212, 170, 0.5),#435c44),url(images/SSN_hostel.png);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    /*object-fit: cover;
+    height: 600px;
+    width: 99vw;*/
+    }
+  .room {
+    object-fit: cover;
+    position:absolute;
+    margin-left: 20px;
+    /*margin-right: 100px;*/
+    margin-top: 30px;
+    margin-bottom: 300px;
+    height: 450px;
+    width: 600px;
+  }
+h1{
+      color:black;
+      margin-left:100px;
+      /*margin-right:100px;*/
+      margin-top:20px;
+      font-weight: 2000;
+      font-size: 30px;
+    }
+
+    .container {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        margin-right: 10px;
+        margin-left: 550px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        
+    }
+    .container .form{
+      margin-bottom: 10px;
+    }
+    label{
+      color:arial black;
+      margin-right: 100px;
+      /*padding:2rem;*/
+     font-size: 17px;
+    }
+    input{
+    
+      padding: 2px 8px;
+        border:greenyellow;
+        border-radius: 3px;
+        width: 300px;
+        height: 30px;
+        outline: 0px;
+        align-items: center;
+      display:center;
+      margin-right: 30px;
+      
+    }
+    select{
+      padding: 7px 13px;
+      border: greenyellow;
+      border-radius: 3px;
+      width: 300px;
+      height: 30px;
+      outline: 0px;
+      align-items: center;
+      display:center;
+      margin-right: 30px;
+    }
+    button{
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 15px;
+      background: chartreuse;
+        border: 1px solid dodgerblue;
+        border-radius: 5px;
+        width: 200px;
+        outline: 0px;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    .PAYFEE{
+      background-color:var(--color-accent);
+      font-size: medium;
+      width: auto;
+      height: auto;
+    }
+    .in-button{
+      color: white;
+    }
+  

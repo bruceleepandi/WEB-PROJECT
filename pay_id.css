@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body{
+    margin: 0;
+  
+   padding: 0;
+   
+  justify-content: center;
+   
+  align-items: center;
+    
+ display: flex;
+    
+ min-height: 100vh;
+      
+ font-family:sans-serif;
+ /*background:linear-gradient(greenyellow,white);*/
+ background-image: url(images/2.jpg); 
+ 
+    
+}
+
+.login-box{
+    width: 400px;
+    height: 630px;
+    background: rgba(0, 0, 0, 0.5);
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 5px;
+    text-align: center;
+    font-size: 22px;
+    color: greenyellow;
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 2px;
+}
+.login-box input[type="text"], input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-bottom: auto;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #000;
+    color: #2a9df4;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+a:before{
+    content: '';
+    
+position: absolute;
+ 
+   top:10px;
+    left:-20px;
+    height: 100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: 0.5s;
+    transform: rotate(0deg)skewY(-45deg);
+}
+ a:after{
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height: 20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: 0.5s;
+    transform: rotate(0deg)skewX(-45deg);
+}
+a:hover{
+    transform:rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    background: #000;
+    color:#2a9df4;
+}
+ 
+ a:hover:before{
+    background: #000;
+}
+a:hover:after{
+    background: #000;
+}

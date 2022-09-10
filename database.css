@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    height: 100vh;
+    margin-left: 90px;
+    padding: 50px; 
+    align-items:top;
+  /*background: linear-gradient(720deg,#71b7e6,#9b59b6); */
+  background-image: url(images/database_back.jpg);
+  
+}
+.container{
+    max-width: 600px;
+    width: 70%;
+    background:linear-gradient(blue,skyblue);
+    margin-bottom: 50px;
+    padding: 80px;
+    border-radius: 30px;
+    margin: 0px auto;
+    height:750px;
+    
+    
+}
+.container1{
+    max-width: 600px;
+    width: 70%;
+    background:linear-gradient(blue,skyblue);
+    margin-bottom: 50px;
+    padding: 80px;
+    border-radius: 30px;
+    margin-left: 10px;
+    align-items: center;
+    height:750px;
+    
+    
+}
+.container2{
+    max-width: 600px;
+    width:70%;
+    background:linear-gradient(blue,skyblue);
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    margin-left: 10px;
+    align-items: center;
+    height: fit-content;
+    margin-top: auto;
+    
+    
+}
+.container .title{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    
+    
+    }
+    input
+{
+    margin-left: 25px;
+    height: 42px;
+    width: 235px;
+    border-radius: 20px;
+}
+select{
+    margin-left: 25px;
+    height: 42px;
+    width: 235px;
+    border-radius: 20px;
+
+}
+
+.container1 .title{
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        
+        }
+
+.input-box{
+    margin-left: 40px;
+    justify-content: center;
+    padding: 1px;
+    font-size: 16px;
+    
+}
+label {
+    padding: 70px;
+    margin: 40px;
+    height: 20px;
+    width: 50px;
+    font-size: 40px;
+    margin-top: 30px;
+}
+button {
+    
+   
+    border-radius: 100px;
+    padding: 10px;
+    color:green;
+    margin-left: 180px;
+    margin: bottom 100%;
+    
+  }
+  button:hover {
+    background-color:green;
+  }
+  .DB{
+    background-color:yellowgreen;
+    font-size: medium;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  a{
+      text-decoration: none;
+      font-size: 20px;
+      margin-top:20px;
+  }
+textarea{
+    height: 200px;
+    width: 400px;
+    
+}
